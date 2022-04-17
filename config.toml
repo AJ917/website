@@ -1,0 +1,20 @@
+baseURL = 'https://aj917.github.io/website/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hermit'
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+  [[menu.main]]
+    name = "About"
+    url = "about-hugo/"
+    weight = 20
